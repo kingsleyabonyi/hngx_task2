@@ -128,4 +128,4 @@ DELETE https://hngx-stage2-ta5z.onrender.com/api/1
 
 # Setup Instructions
 
-For detailed instructions on how to set up, run, and use this API, please refer to the README file
+For detailed instructions on how to set up, run, and use this API, please refer to the [README file] (https://github.com/kingsleyabonyi/hngx_task2/blob/master/README.md)
