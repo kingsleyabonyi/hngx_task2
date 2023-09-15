@@ -1,9 +1,9 @@
-HNGx CRUD Person REST API
+# HNGx CRUD Person REST API
 
 This HNGx CRUD Person REST API. This API allows you to manage and interact with a "Person" resource, performing CRUD (Create, Read, Update, Delete) operations on individuals' data.
 Table of Contents
 
-    API Endpoints
+    # API Endpoints
     Create a Person
     Retrieve a Person
     Update a Person
@@ -13,7 +13,7 @@ Table of Contents
     Limitations
     Setup Instructions
 
-API Endpoints
+# API Endpoints
 Create a Person
 
     Endpoint: POST /api
@@ -37,7 +37,7 @@ Create a Person
 "email": "john@example.com"
 }
 
-Retrieve a Person
+# Retrieve a Person
 
     Endpoint: GET /api/<user_id>
     Description: Retrieve details of a person by their ID.
@@ -52,7 +52,7 @@ Retrieve a Person
 "email": "john@example.com"
 }
 
-Update a Person
+# Update a Person
 
     Endpoint: PUT /api/<user_id>
     Description: Update details of an existing person.
@@ -75,7 +75,7 @@ Update a Person
 "email": "updated_john@example.com"
 }
 
-Delete a Person
+# Delete a Person
 
     Endpoint: DELETE /api/<user_id>
     Description: Remove a person.
@@ -121,11 +121,11 @@ Content-Type: application/json
 
 DELETE https://hngx-stage2-ta5z.onrender.com/api/1
 
-Limitations
+# Limitations
 
     This API is a simple example and may not cover all possible use cases.
     Error handling is limited to basic validation checks.
 
-Setup Instructions
+# Setup Instructions
 
 For detailed instructions on how to set up, run, and use this API, please refer to the README file
