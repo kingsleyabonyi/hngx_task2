@@ -1,0 +1,131 @@
+HNGx CRUD Person REST API
+
+This HNGx CRUD Person REST API. This API allows you to manage and interact with a "Person" resource, performing CRUD (Create, Read, Update, Delete) operations on individuals' data.
+Table of Contents
+
+    API Endpoints
+    Create a Person
+    Retrieve a Person
+    Update a Person
+    Delete a Person
+    Request/Response Formats
+    Sample Usage
+    Limitations
+    Setup Instructions
+
+API Endpoints
+Create a Person
+
+    Endpoint: POST /api
+    Description: Create a new person.
+    Request Format:
+    Content-Type: application/json
+    Body:
+
+{
+"name": "John Doe",
+"email": "john@example.com"
+}
+
+    Response Format:
+    Status Code: 201 (Created)
+    Body:
+
+{
+"id": 1,
+"name": "John Doe",
+"email": "john@example.com"
+}
+
+Retrieve a Person
+
+    Endpoint: GET /api/<user_id>
+    Description: Retrieve details of a person by their ID.
+    Request Format: None required.
+    Response Format:
+    Status Code: 200 (OK)
+    Body:
+
+{
+"id": 1,
+"name": "John Doe",
+"email": "john@example.com"
+}
+
+Update a Person
+
+    Endpoint: PUT /api/<user_id>
+    Description: Update details of an existing person.
+    Request Format:
+    Content-Type: application/json
+    Body:
+
+{
+"name": "Updated John Doe",
+"email": "updated_john@example.com"
+}
+
+    Response Format:
+    Status Code: 200 (OK)
+    Body:
+
+{
+"id": 1,
+"name": "Updated John Doe",
+"email": "updated_john@example.com"
+}
+
+Delete a Person
+
+    Endpoint: DELETE /api/<user_id>
+    Description: Remove a person.
+    Request Format: None required.
+    Response Format: No content (204 No Content)
+
+Request/Response Formats
+
+    Request Format:
+    Content-Type: application/json
+    All API endpoints accept and return data in JSON format.
+    Response Format:
+    Successful responses return data in JSON format.
+    Errors are returned with appropriate HTTP status codes and error messages in JSON format.
+
+Sample Usage
+
+Here are some example API requests:
+
+    Create a new person:
+
+POST https://hngx-stage2-ta5z.onrender.com/api
+Content-Type: application/json
+{
+"name": "John Doe",
+"email": "john@example.com"
+}
+
+    Retrieve details of a person:
+
+GET https://hngx-stage2-ta5z.onrender.com/api/1
+
+    Update details of a person:
+
+PUT https://hngx-stage2-ta5z.onrender.com/api/1
+Content-Type: application/json
+{
+"name": "Updated John Doe",
+"email": "updated_john@example.com"
+}
+
+    Remove a person:
+
+DELETE https://hngx-stage2-ta5z.onrender.com/api/1
+
+Limitations
+
+    This API is a simple example and may not cover all possible use cases.
+    Error handling is limited to basic validation checks.
+
+Setup Instructions
+
+For detailed instructions on how to set up, run, and use this API, please refer to the README file
