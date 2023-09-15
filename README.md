@@ -1,7 +1,7 @@
 # HNGx CRUD Person REST API
 
 This is a Django REST API project that allows you to manage and interact with a "Person" resource. You can perform CRUD (Create, Read, Update, Delete) operations on individuals' data.
-Table of Contents
+# Table of Contents
 
     Getting Started
     Prerequisites
@@ -14,7 +14,7 @@ Table of Contents
     Contributing
     License
 
-Getting Started
+# Getting Started
 
 UML Diagram for the CRUD Person REST API
 Prerequisites
