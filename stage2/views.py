@@ -11,7 +11,7 @@ def add(request):
     if request.method == 'GET':
         person = Person.objects.all()
         serializer = PersonSerializer(person, many = True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     if request.method == 'POST':
         serializer = PersonSerializer(data=request.data)
