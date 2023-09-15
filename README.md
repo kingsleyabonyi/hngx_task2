@@ -95,4 +95,4 @@ python manage.py test
 
 Documentation
 
-For detailed information on how to use this API, check the API Documentation file.
+For detailed information on how to use this API, check the API [Documentation file] (https://github.com/kingsleyabonyi/hngx_task2/blob/master/stage2/documentation.md).
