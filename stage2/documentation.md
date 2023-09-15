@@ -128,4 +128,4 @@ Limitations
 
 Setup Instructions
 
-For detailed instructions on how to set up, run, and use this API, please refer to the [README file](https://github.com/kingsleyabonyi/hngx_task2/blob/master/README.md)
+For detailed instructions on how to set up, run, and use this API, please refer to the [README file] (https://github.com/kingsleyabonyi/hngx_task2/blob/master/README.md)
