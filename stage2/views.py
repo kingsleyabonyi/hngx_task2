@@ -77,7 +77,7 @@ class ListCreatePerson(generics.ListCreateAPIView):
 #     serializer_class = PersonSerializer
 
 
-class RetrieveUpdateDelete(generics.RetrieveUpdateDestroyAPIView):
+class RetrieveUpdateDeletePerson(generics.RetrieveUpdateDestroyAPIView):
     queryset = Person.objects.all()
     serializer_class = PersonSerializer
 
