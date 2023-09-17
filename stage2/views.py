@@ -21,6 +21,18 @@ def add(request):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
 
+@api_view(['GET'])
+def get_person(request):
+    if request.method == 'GET':
+        person_id = request.data.get('person_id')
+        try:
+            person = Person.objects.get(pk=person_id)
+            serializer = PersonSerializer(person)
+            return Response(person)
+        except Person.DoesNotExist:
+            return Response(serializer.errors, "The person does not exist")
+    
+
 @api_view(['PUT', 'DELETE'])
 def update(request, pk):
     if request.method == 'PUT':
@@ -35,6 +47,8 @@ def update(request, pk):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_200_OK)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
     
     if request.method == 'DELETE':
         person = Person.objects.get(pk=pk)
