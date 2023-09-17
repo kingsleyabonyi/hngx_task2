@@ -22,15 +22,15 @@ def add(request):
     
 
 @api_view(['GET'])
-def get_person(request):
+def get_person(request, pk):
     if request.method == 'GET':
         person_id = request.data.get('person_id')
         try:
-            person = Person.objects.get(pk=person_id)
+            person = Person.objects.get(pk=pk)
             serializer = PersonSerializer(person)
-            return Response(person)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
         except Person.DoesNotExist:
-            return Response(serializer.errors, "The person does not exist")
+            return Response( {"Error":"The person does not exist"}, status=404)
     
 
 @api_view(['PUT', 'DELETE'])
