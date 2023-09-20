@@ -3,8 +3,8 @@
 This is a Django REST API project that allows you to manage and interact with a "Person" resource. You can perform CRUD (Create, Read, Update, Delete) operations on individuals' data.
 # Table of Contents
 
-    [Getting Started]()
-    *Prerequisites
+    [Getting Started]
+    Prerequisites
     *Installation
     *Usage
     *API Endpoints
@@ -19,16 +19,16 @@ This is a Django REST API project that allows you to manage and interact with a 
 UML Diagram for the CRUD Person REST API
 Prerequisites
 
-    *Python (3.10 or higher)
-    *Django (3.0 or higher)
-    *Django Rest Framework
-    *Git
+    Python (3.10 or higher)
+    Django (3.0 or higher)
+    Django Rest Framework
+    Git
 
 Installation
 
     Clone the repository:
 
-git clone https://github.com/Tomilola-ng/TrackBackendTask2.git
+git clone https://github.com/kingsleyabonyi/hngx_task2.git
 cd my-awesome-api
 
     Create and activate a virtual environment:
