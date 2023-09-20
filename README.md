@@ -3,26 +3,26 @@
 This is a Django REST API project that allows you to manage and interact with a "Person" resource. You can perform CRUD (Create, Read, Update, Delete) operations on individuals' data.
 # Table of Contents
 
-    [Getting Started]
-    Prerequisites
-    Installation
-    Usage
-    API Endpoints
-    Testing
-    Deployment
-    Documentation
-    Contributing
-    License
+    *Getting Started
+    *Prerequisites
+    *Installation
+    *Usage
+    *API Endpoints
+    *Testing
+    *Deployment
+    *Documentation
+    *Contributing
+    *License
 
 # Getting Started
 
 UML Diagram for the CRUD Person REST API
 Prerequisites
 
-    Python (3.10 or higher)
-    Django (3.0 or higher)
-    Django Rest Framework
-    Git
+    *Python (3.10 or higher)
+    *Django (3.0 or higher)
+    *Django Rest Framework
+    *Git
 
 Installation
 
