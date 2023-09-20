@@ -3,7 +3,7 @@
 This is a Django REST API project that allows you to manage and interact with a "Person" resource. You can perform CRUD (Create, Read, Update, Delete) operations on individuals' data.
 # Table of Contents
 
-    [Getting Started] (https://github.com/kingsleyabonyi/hngx_task2//blob/main/README.md#-getting-started)
+    [Getting Started]()
     *Prerequisites
     *Installation
     *Usage
